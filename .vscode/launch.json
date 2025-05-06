@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "GestionUsuariosApplication",
+            "request": "launch",
+            "mainClass": "com.example.gestionusuarios.GestionUsuariosApplication",
+            "projectName": "gestion-usuarios"
+        },
+        {
+            "type": "java",
+            "name": "GestionDeUsuariosApplication",
+            "request": "launch",
+            "mainClass": "com.example.gestiondeusuarios.GestionDeUsuariosApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-GestionDeUsuariosApplication<Gestion-de-Usuarios>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.Gestion.de.Usuarios.GestionDeUsuariosApplication",
+            "projectName": "Gestion-de-Usuarios",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
