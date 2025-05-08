@@ -7,17 +7,17 @@ import org.springframework.core.env.Environment;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
-import java.time.LocalDateTime;
 import java.util.List;
 
 @Service
 
 public class EquipoService {
     
-    private final EquipoRepository equipoRepository;
-    private final Environment environment;
-    
     @Autowired
+    private final EquipoRepository equipoRepository;
+    @Autowired
+    private final Environment environment; 
+    
     public EquipoService(EquipoRepository equipoRepository, Environment environment) {
         this.equipoRepository = equipoRepository;
         this.environment = environment;

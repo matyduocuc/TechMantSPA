@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SoporteAlClienteApplication",
+            "request": "launch",
+            "mainClass": "com.example.Soporte.al.Cliente.SoporteAlClienteApplication",
+            "projectName": "Soporte-al-Cliente"
+        },
+        {
+            "type": "java",
+            "name": "GestionDeGarantiasApplication",
+            "request": "launch",
+            "mainClass": "com.example.Gestion.de.Garantias.GestionDeGarantiasApplication",
+            "projectName": "Gestion-de-Garantias"
+        },
+        {
+            "type": "java",
             "name": "MonitoreoDeEquiposApplication",
             "request": "launch",
             "mainClass": "com.example.Monitoreo.de.Equipos.MonitoreoDeEquiposApplication",
