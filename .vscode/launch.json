@@ -9,6 +9,13 @@
         },
         {
             "type": "java",
+            "name": "MonitoreoDeEquiposApplication",
+            "request": "launch",
+            "mainClass": "com.example.Monitoreo.de.Equipos.MonitoreoDeEquiposApplication",
+            "projectName": "Monitoreo-de-Equipos"
+        },
+        {
+            "type": "java",
             "name": "InventarioDeRepuestosApplication",
             "request": "launch",
             "mainClass": "com.example.Inventario.de.Repuestos.InventarioDeRepuestosApplication",
