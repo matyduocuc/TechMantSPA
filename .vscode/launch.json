@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SoporteTecnicoApplication",
+            "request": "launch",
+            "mainClass": "com.example.Soporte.Tecnico.SoporteTecnicoApplication",
+            "projectName": "Soporte-Tecnico"
+        },
+        {
+            "type": "java",
+            "name": "AutomatizacionDeTareasRepetitivasApplication",
+            "request": "launch",
+            "mainClass": "com.example.Automatizacion.de.Tareas.Repetitivas.AutomatizacionDeTareasRepetitivasApplication",
+            "projectName": "Automatizacion-de-Tareas-Repetitivas"
+        },
+        {
+            "type": "java",
             "name": "FacturacionYPagosApplication",
             "request": "launch",
             "mainClass": "com.example.Facturacion.y.Pagos.FacturacionYPagosApplication",
