@@ -1,15 +1,9 @@
 package com.example.Soporte.Tecnico.dto;
 
+import lombok.Data;
+
+@Data
 public class TecnicoDTO {
-
-    public String getEspecialidad() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getEspecialidad'");
-    }
-
-    public String getNombre() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getNombre'");
-    }
-
+    private String nombre;
+    private String especialidad;
 }

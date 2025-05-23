@@ -1,15 +1,9 @@
 package com.example.Soporte.Tecnico.dto;
 
+import lombok.Data;
+
+@Data
 public class AsignacionDTO {
-
-    public Long getTecnicoId() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getTecnicoId'");
-    }
-
-    public Long getTicketId() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getTicketId'");
-    }
-
+    private Long tecnicoId;  // ID del técnico
+    private Long ticketId;    // ID del ticket
 }
