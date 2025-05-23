@@ -53,7 +53,7 @@ public class SucursalService {
         sucursal.setNombre(dto.getNombre());
         sucursal.setDireccion(dto.getDireccion());
         sucursal.setTelefono(dto.getTelefono());
-        // Manejar responsable aquí si es necesario
+        // Establecer responsable según responsableId si es necesario
         return sucursal;
     }
 }

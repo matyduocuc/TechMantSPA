@@ -9,14 +9,11 @@ import jakarta.persistence.IdClass;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
-import jakarta.persistence.Temporal;
-import jakarta.persistence.TemporalType;
 
 @Entity
+@IdClass(SucursalEquipoId.class)
 @Table(name = "sucursal_equipos")
-@IdClass(Sucursal.class)
 public class SucursalEquipo {
-
     @Id
     private Long sucursalId;
 
@@ -24,7 +21,6 @@ public class SucursalEquipo {
     private Long equipoId;
 
     @Column(name = "fecha_asignacion", nullable = false)
-    @Temporal(TemporalType.DATE)
     private Date fechaAsignacion;
 
     @ManyToOne
@@ -34,6 +30,4 @@ public class SucursalEquipo {
     @ManyToOne
     @JoinColumn(name = "equipo_id", insertable = false, updatable = false)
     private Equipo equipo;
-
-    // Getters y Setters
 }
