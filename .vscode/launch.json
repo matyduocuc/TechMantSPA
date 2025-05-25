@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Application",
+            "request": "launch",
+            "mainClass": "com.example.Gestion.de.usuarios.Application",
+            "projectName": "Gestion.de.usuarios"
+        },
+        {
+            "type": "java",
             "name": "GestionDeSucursalesApplication",
             "request": "launch",
             "mainClass": "com.example.Gestion.de.Sucursales.GestionDeSucursalesApplication",
