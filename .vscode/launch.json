@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SoporteAlClienteApplication",
+            "request": "launch",
+            "mainClass": "com.example.Soporte.al.cliente.SoporteAlClienteApplication",
+            "projectName": "Soporte-al-cliente"
+        },
+        {
+            "type": "java",
             "name": "ReportesApplication",
             "request": "launch",
             "mainClass": "com.example.Reportes.ReportesApplication",
