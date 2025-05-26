@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ReportesApplication",
+            "request": "launch",
+            "mainClass": "com.example.Reportes.ReportesApplication",
+            "projectName": "Reportes"
+        },
+        {
+            "type": "java",
             "name": "GestionDeVentasApplication",
             "request": "launch",
             "mainClass": "com.example.Gestion.de.ventas.GestionDeVentasApplication",
