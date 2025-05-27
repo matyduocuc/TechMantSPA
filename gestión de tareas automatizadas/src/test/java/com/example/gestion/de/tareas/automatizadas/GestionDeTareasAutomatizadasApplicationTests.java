@@ -1,10 +1,10 @@
-package com.example.Automatizacion.de.Tareas.Repetitivas;
+package com.example.gestion.de.tareas.automatizadas;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AutomatizacionDeTareasRepetitivasApplicationTests {
+class GestionDeTareasAutomatizadasApplicationTests {
 
 	@Test
 	void contextLoads() {
