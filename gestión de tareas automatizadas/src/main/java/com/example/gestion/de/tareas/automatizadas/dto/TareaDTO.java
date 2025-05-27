@@ -6,5 +6,5 @@ import lombok.Data;
 public class TareaDTO {
     private String nombre;
     private String descripcion;
-    private Long idTecnico;
+    private Long idTecnico; // Agregado para el ID técnico
 }
