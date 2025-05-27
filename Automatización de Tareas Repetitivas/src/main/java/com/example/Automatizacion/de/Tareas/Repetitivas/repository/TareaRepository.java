@@ -6,4 +6,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface TareaRepository extends JpaRepository<Tarea, Long> {
+    // Puedes agregar métodos personalizados si es necesario
 }

@@ -31,6 +31,7 @@ public class TareaServiceImpl implements TareaService {
         Tarea tarea = new Tarea();
         tarea.setNombre(tareaDTO.getNombre());
         tarea.setDescripcion(tareaDTO.getDescripcion());
+        tarea.setIdTecnico(tareaDTO.getIdTecnico()); // Establecer idTecnico
         return tareaRepository.save(tarea);
     }
 
@@ -39,6 +40,7 @@ public class TareaServiceImpl implements TareaService {
         return tareaRepository.findById(id).map(tareaExistente -> {
             tareaExistente.setNombre(tareaDTO.getNombre());
             tareaExistente.setDescripcion(tareaDTO.getDescripcion());
+            tareaExistente.setIdTecnico(tareaDTO.getIdTecnico()); // Actualizar idTecnico
             return tareaRepository.save(tareaExistente);
         }).orElseThrow(() -> new ResourceNotFoundException("Tarea no encontrada con ID: " + id));
     }
