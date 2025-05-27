@@ -37,6 +37,9 @@ public class Equipo {
     @Column(name = "id_tipo")
     private Long idTipo;
 
+    @Column(name = "id_usuario") // Nuevo campo para el ID del usuario
+    private Long idUsuario;
+
     @Column(name = "ultima_actualizacion")
     private LocalDateTime ultimaActualizacion;
 }

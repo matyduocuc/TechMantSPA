@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Application",
+            "request": "launch",
+            "mainClass": "com.example.Gestion.de.solicitudes.Application",
+            "projectName": "Gestion.de.solicitudes"
+        },
+        {
+            "type": "java",
             "name": "MonitoreoDeEquiposApplication",
             "request": "launch",
             "mainClass": "com.example.Monitoreo.de.equipos.MonitoreoDeEquiposApplication",
